@@ -1,14 +1,20 @@
 <div align="left">
 
-  <img src="assets/branding/app_icon_wide.png" alt="EkaKey" width="120">
+  <img src="assets/branding/app_icon_wide.png" alt="EkaKey" width="180">
 
-  **A globally working autoCorrect for Windows PC**
+  <br>
+
+  **A autoCorrect for Windows PC that works Globally and System-wide with UI**
   
   It's a system-wide, floating typing assistant built with **Flutter** and **Win32 C++ Hooks**. It brings mobile-style autocorrect for PC, uses **autoTrie** to learn and suggest words that are personalized to you, and visual typing effects to *any* application on Windows (Notepad, Discord, Browser, IDEs, etc.).
 
 
   ![Flutter](https://img.shields.io/badge/Flutter-Windows-02569B?logo=flutter&logoColor=white)
   ![License](https://img.shields.io/badge/License-MIT-green)
+
+
+https://github.com/user-attachments/assets/d93e903f-c6a4-4e2b-9b9d-092a452f91ff
+
 
 </div>
 
@@ -23,7 +29,7 @@
 *   **Learning in a sec:** Remembers your corrections—undo a correction once, and it learns your preference, and never correct that again
 *   **SQLite for Database:** Stores learnings in a SQL Table  
 * **Key Simulator:** Does backspaces and type corrected word by *SendInput Windows API*
-*   **Low-to-No Lag:** Uses native windows Hooks and API for System-wide tasks so that your system don't feel load 
+*   **Low-to-No Lag:** Uses native windows Hooks and API for System-wide tasks so that your system don't feel too much load 
 
 <br>
 
@@ -54,11 +60,11 @@
 
 <tr> <td width="40%"><img src="assets/branding/usage_3.gif" alt="Make your own abbreviation" width="100%"/></td> <td width="60%"> <h3>Make your own abbreviation</h3>
  <p><code>hlo → hello</code> <code>ur → your</code><br>
- After you type a word <mark>and press <kbd>Space</kbd> then</mark>, EkaKey watches for a <kbd>Backspace</kbd>. If you hit it, you are in editing mode. Once you press <kbd>Space</kbd> again to finish, EkaKey learns that correction and saves the pair <code>lastIncorrectWord → correctWord</code> to user database.</p> </td> </tr>
+ After you type a word <mark>and press <kbd>Space</kbd> then</mark>, EkaKey watches for a <kbd>Backspace</kbd>. If you hit it, you are in editing mode. Once you press <kbd>Space</kbd> again to finish, EkaKey learns that correction and saves the pair <code>lastIncorrectWord → currentWord</code> to user database.</p> </td> </tr>
 
 <tr> <td width="40%"><img src="assets/branding/usage_4.gif" alt="Learning" width="100%"/></td> <td width="60%"> <h3>To delete from your database</h3> <p>User personalized words are stored in a SQL Database which you can access in EkaKey sidepannel. Here all your personal/nonAutoCorrectable words exists. You can delete them one-by-one or all words older than x days.</p> </td> </tr>
 
-<tr> <td width="40%"><img src="assets/branding/usage_5.gif" alt="Toggle" width="100%"/></td> <td width="60%"> <h3>To Backspace without editing</h3> <p>You may wanna backspace without EkaKey saving a new database entry, use <kbd>Ctrl</kbd> + <kbd>Backspace</kbd>. Using this shortcut (or other <label title="Ctrl, Alt, Win, Delete, ArrowKeys, Period, Comma, 0-9&#10;and all other symbols except single/double Quote and&#10;Hyphen/Underscore" style="color: blue;">cancellation keys</label>) will exit editing mode and bypass the saving process.</p> </td> </tr>
+<tr> <td width="40%"><img src="assets/branding/usage_5.gif" alt="Toggle" width="100%"/></td> <td width="60%"> <h3>To Backspace without editing</h3> <p>You may wanna backspace without EkaKey saving a new database entry, use <kbd>Ctrl</kbd> + <kbd>Backspace</kbd>. Using this shortcut (or other <a title="Ctrl, Alt, Win, Delete, ArrowKeys, Period, Comma, 0-9 and all other symbols" href="#to-backspace-without-editing" style="cursor: help;">cancellation keys</a>) will exit editing mode and bypass the saving process.</p> </td> </tr>
 
 <tr> <td width="40%"><img src="assets/branding/snap.gif" alt="Snap" width="100%"/></td> <td width="60%"> <h3>Snap to the corner</h3> <p>Use the hotkkey <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>S</kbd> to keep the window visible, and then grab the status bar to drag and slam it to the corner of the screen. I'll align itself.</p> </td> </tr> </table>
 
@@ -77,8 +83,8 @@ Database Location: <code>C:\Users\UserName\AppData\Roaming\com.example\ekakey</c
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/your-username/ekakey.git
-    cd ekakey
+    git clone https://github.com/RanvirRox/EkaKey-autocorrect-globally.git
+    cd EkaKey-autocorrect-globally
     ```
 
 2.  **Install dependencies:**
@@ -96,6 +102,10 @@ Database Location: <code>C:\Users\UserName\AppData\Roaming\com.example\ekakey</c
     flutter build windows
     ```
     The executable will be located in: `build/windows/runner/Release/`
+
+### 📥 App Download
+* Package ZIP: https://github.com/RanvirRox/EkaKey-autocorrect-globally/releases/download/v1.0.0/EkaKey-Windows-Release.zip
+* Setup EXE:
 
 ## 🏗️ Architecture
 
