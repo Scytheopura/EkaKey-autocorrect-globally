@@ -103,16 +103,16 @@ Database Location: <code>C:\Users\UserName\AppData\Roaming\com.example\ekakey</c
     ```
     The executable will be located in: `build/windows/runner/Release/`
 
-### 📥 App Download
-* Package ZIP: https://github.com/RanvirRox/EkaKey-autocorrect-globally/releases/download/v1.0.0/EkaKey-Windows-Release.zip
-* Setup EXE:
 
 ## 🏗️ Architecture
-
 
 *   **Frontend:** Flutter (UI, Animations, Settings).
 *   **Backend Logic:** Dart (Trie Engine, SQLite Database management).
 *   **Native Interop:** C++ (`win32` package) for keyboard hooking and simulating keystrokes (`SendInput`).
+
+### 📥 App Download
+* Package ZIP: [EkaKey-Windows-Release.zip](https://github.com/RanvirRox/EkaKey-autocorrect-globally/releases/download/v1.0.0/EkaKey-Windows-Release.zip)
+* Setup EXE: [EkaKey_Setup_v1.0.0.exe](https://github.com/RanvirRox/EkaKey-autocorrect-globally/releases/download/v1.0.0/EkaKey_Setup_v1.0.0.exe)
 
 ## 🤝 Contributing
 
