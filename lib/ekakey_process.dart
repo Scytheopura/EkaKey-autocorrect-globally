@@ -471,7 +471,9 @@ Future<void> _errorCorrection(String inputAtCallTime, bool pass) async {
       ].take(4).toList();
     if (words.isNotEmpty) selectedTileWord.value = words[0];
   } else {
-    _lastIncorrectWord = inputAtCallTime;
+    if(!pass) {
+      _lastIncorrectWord = inputAtCallTime;
+    }
     globalCorrectWord.value = inputAtCallTime;
     selectedTileIndex.value = 0;
     final List<String> words = [

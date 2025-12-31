@@ -1,0 +1,16 @@
+Step1 - Copy the two files(dictionary.db & dictionary_data.dat) form your language.
+
+Step2 - you need to paste/replace those two files here - \data\flutter_assets\assets
+(data folder is in the same folder where ekakey.exe is, if you have downloaded it through setup.exe check this location - C:\Users\UserName\AppData\Local\Programs\EkaKey)
+
+when you start the app for the first time it makes ekakey folder at this location - 
+C:\Users\UserName\AppData\Roaming\com.example\ekakey
+So if you already had started the app you need to do this extra step (otherwise you are fine)
+
+extra Step - go to this location(C:\Users\UserName\AppData\Roaming\com.example\ekakey) and paste/replace those two file here too.
+
+
+IF YOU CAN'T FIND YOUR LANGUAGE HERE YOU CAN MAKE YOUR FILES FOR YOUR LANGUAGE,
+JUST FOLLOW THE INSTRUUCTIONS GIVEN IN README.MD
+
+AND THEN IF YOU WANT YOU CAN PULL REQUEST TO SHARE YOUR DICTIONARY WITH OTHERS
