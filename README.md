@@ -69,10 +69,33 @@ https://github.com/user-attachments/assets/d93e903f-c6a4-4e2b-9b9d-092a452f91ff
 <tr> <td width="40%"><img src="assets/branding/snap.gif" alt="Snap" width="100%"/></td> <td width="60%"> <h3>Snap to the corner</h3> <p>Use the hotkkey <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>S</kbd> to keep the window visible, and then grab the status bar to drag and slam it to the corner of the screen. I'll align itself.</p> </td> </tr> </table>
 
 
-## 🛡️Privacy
+## 🛡️ Privacy
 I recommend disabling EkaKey with <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>D</kbd> when entering passwords or sensitive login IDs. Though the app will not save any data to the database unless you get into Edit Mode, turning it off provides an extra layer of privacy because when turned off the C++ HOOK is detached and stops Listening to keystrokes.
 
 Database Location: <code>C:\Users\UserName\AppData\Roaming\com.example\ekakey</code>
+
+## 🌐 Custom Dictionary(only Roman script, 26char)
+First check 'languages' folder if it has your required language already, If not then 
+you can add your own dictionary(but only having 26 english char) 
+### What you need?
+* A .txt file with thousands of words each in a new line.
+### Implementation 
+* [Step1](#installation-build) - Clone the repo -> Install dependencies 
+
+* Step2 - Put your .txt file in <code>bin/</code>
+
+* Step3 - Run this, and put your .txt file name(with extention)
+    ```bash
+    dart run bin/sanitize_dictionary.dart
+    ```
+    This will remove all the words which has other characters other than 26 english char
+* Step4 - Finally run this to make the .dat and .db files
+    ```bash
+    dart run bin/db_generator.dart
+    dart run bin/trie_generator.dart
+    ```
+* Step5 - [Read this](languages/HOW%20TO%20CHANGE%20LANGUAGE.txt)
+
 
 ## 🛠️ Installation & Build
 
@@ -111,8 +134,8 @@ Database Location: <code>C:\Users\UserName\AppData\Roaming\com.example\ekakey</c
 *   **Native Interop:** C++ (`win32` package) for keyboard hooking and simulating keystrokes (`SendInput`).
 
 ### 📥 App Download
-* Package ZIP: [EkaKey-Windows-Release.zip](https://github.com/RanvirRox/EkaKey-autocorrect-globally/releases/download/v1.0.0/EkaKey-Windows-Release.zip)
-* Setup EXE: [EkaKey_Setup_v1.0.0.exe](https://github.com/RanvirRox/EkaKey-autocorrect-globally/releases/download/v1.0.0/EkaKey_Setup_v1.0.0.exe)
+* Package ZIP: [EkaKey-Windows-Release.zip](https://github.com/RanvirRox/EkaKey-autocorrect-globally/releases/download/v1.0.1/EkaKey-Release_v1.0.1.zip)
+* Setup EXE: [EkaKey_Setup_v1.0.0.exe](https://github.com/RanvirRox/EkaKey-autocorrect-globally/releases/download/v1.0.1/EkaKey_Setup_v1.0.1.exe)
 
 ## 🤝 Contributing
 
