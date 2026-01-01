@@ -76,19 +76,19 @@ Database Location: <code>C:\Users\UserName\AppData\Roaming\com.example\ekakey</c
 
 ## 🌐 Custom Dictionary(only Roman script, 26char)
 First check 'languages' folder if it has your required language already, If not then 
-you can add your own dictionary(but only having 26 english char) 
+you can add your own dictionary(but only having 26 english char).
 ### What you need?
 * A .txt file with thousands of words each in a new line.
 ### Implementation 
-* [Step1](#installation-build) - Clone the repo -> Install dependencies 
+* [Step1](#%EF%B8%8F-installation--build) - Clone the repo -> Install dependencies 
 
-* Step2 - Put your .txt file in <code>bin/</code>
+* Step2 - Paste your .txt file in the cloned repo.
 
-* Step3 - Run this, and put your .txt file name(with extention)
+* Step3 - Run this, and put your .txt file name(with extention '.txt')
     ```bash
     dart run bin/sanitize_dictionary.dart
     ```
-    This will remove all the words which has other characters other than 26 english char
+    This will remove all the words which has characters other than 26 english char.
 * Step4 - Finally run this to make the .dat and .db files
     ```bash
     dart run bin/db_generator.dart
@@ -134,8 +134,8 @@ you can add your own dictionary(but only having 26 english char)
 *   **Native Interop:** C++ (`win32` package) for keyboard hooking and simulating keystrokes (`SendInput`).
 
 ### 📥 App Download
-* Package ZIP: [EkaKey-Windows-Release.zip](https://github.com/RanvirRox/EkaKey-autocorrect-globally/releases/download/v1.0.1/EkaKey-Release_v1.0.1.zip)
-* Setup EXE: [EkaKey_Setup_v1.0.0.exe](https://github.com/RanvirRox/EkaKey-autocorrect-globally/releases/download/v1.0.1/EkaKey_Setup_v1.0.1.exe)
+* Package ZIP: [EkaKey-Release_v1.0.1.zip](https://github.com/RanvirRox/EkaKey-autocorrect-globally/releases/download/v1.0.1/EkaKey-Release_v1.0.1.zip)
+* Setup EXE: [EkaKey_Setup_v1.0.1.exe](https://github.com/RanvirRox/EkaKey-autocorrect-globally/releases/download/v1.0.1/EkaKey_Setup_v1.0.1.exe)
 
 ## 🤝 Contributing
 
