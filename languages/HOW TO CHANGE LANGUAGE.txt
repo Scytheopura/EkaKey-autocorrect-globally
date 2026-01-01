@@ -1,4 +1,6 @@
-Step1 - Copy the two files(dictionary.db & dictionary_data.dat) form your language.
+Step1 - Copy the two files(dictionary.db & dictionary_data.dat) form your language(or the one you made).
+
+(If you have made those files by your self, you dont need the cloned repo now, you can delete it, and instead we are talking about the Release zip/exe installation folder after this)
 
 Step2 - you need to paste/replace those two files here - \data\flutter_assets\assets
 (data folder is in the same folder where ekakey.exe is, if you have downloaded it through setup.exe check this location - C:\Users\UserName\AppData\Local\Programs\EkaKey)
